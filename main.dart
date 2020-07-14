@@ -64,3 +64,5 @@ class _WebViewExampleState extends State<WebViewExample> {
    );
   }
 }
+
+// add <uses-permission android:name="android.permission.INTERNET"/> to the android>app>src>main>menifest  in the menifest before application then add android:usesCleartextTraffic="true" inthe application.
